@@ -290,19 +290,16 @@
     {
       "company": "Sayint.ai",
       "title": "Software Intern",
-      "years": "01.2018 - 09.2019",
+      "years": "11.2018 - 03.2019",
       "mainTech": [
-        "Python, MATLAB"
+        "Python"
       ],
       "technologies": [
-        "JavaScript",
         "Python",
-        "MATLAB",
-        "Git",
-        "Docker",
-        "HERE HD",
-        "Open Street Maps",
-        "openDRIVE"
+        "SQL",
+        "RASA",
+        "Azure",
+        "Mycroft"
       ]
     }
   ]
