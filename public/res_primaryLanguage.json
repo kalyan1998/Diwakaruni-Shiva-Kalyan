@@ -1,0 +1,309 @@
+{
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "I am Shiva Kalyan Sunder Diwakaruni, pursuing a Master's in Computer Science at Clemson University. I am currently looking for Summer 2024 internship opportunities as a Software Development Engineer, where I can apply my three years of industrial experience and expertise to innovative projects and further advance my skills.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "XY Performance Improvement",
+      "startDate": "2023",
+      "description": "This project primarily emphasized backend enhancements, resulting in a notable 50% increase in data processing speed for visualizing XY data using data thinning techniques. This improvement is especially crucial for time series datasets with over 1 million data points. On the frontend, the default representation of data is a scatter plot. In this visualization, the marker fill color corresponds to the y-axis signal, while the marker border color matches the x-axis signal. Users have the flexibility to choose between displaying only markers, only lines, or a combination of both markers and connecting lines by selecting or clearing the Line and Markers options. To illustrate the impact of these changes, the first image demonstrates that when plotting data with a length of 1 million points, the system experiences delays and unresponsiveness. In contrast, the second image, following our improvements, showcases data plotting and smooth cursor operations, demonstrating a significant performance boost.",
+      "images": [
+        "images/portfolio/XYImp/Before.jpeg",
+        "images/portfolio/XYImp/XYImp.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-cplusplus-plain",
+          "name": "C++"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-matlab-plain",
+          "name": "MATLAB"
+        }
+      ]
+    },
+    {
+      "title": "XY Limits",
+      "startDate": "2022",
+      "description": "This project involved comprehensive updates to both the frontend and backend components. One of the key enhancements was the introduction of a 'Limits' section within the settings panel of XY visualization. This feature aimed to streamline the user experience by allowing direct adjustments to the canvas limits. Unlike the previous method where users had to manually pan or zoom the canvas to view updated limits, this new feature enabled users to precisely navigate to a specific grid location on the canvas by providing input in the limits section of the settings panel. Moreover, to ensure persistence and continuity of this feature across multiple XY visualizations, the data was efficiently stored in a database. This approach ensured that the limits of each subplot remained intact and functional when the Simulink Data Inspector was reopened or reloaded.",
+      "images": [
+        "images/portfolio/limits/Before.jpg",
+        "images/portfolio/limits/After.jpg",
+        "images/portfolio/limits/Limits.mp4"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-cplusplus-plain",
+          "name": "C++"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-matlab-plain",
+          "name": "MATLAB"
+        }
+      ]
+    },
+    {
+      "title": "MAVIC: MATLAB Navigation Bot for Large Office Workspaces",
+      "startDate": "2022",
+      "description": "As part of the Hack Day 2022 event within MathWorks, I developed a Microsoft Teams bot using MATLAB, Typescript, and Azure. This bot harnessed the power of the A* algorithm and was adapted in this project to assist users in navigating within extensive office spaces or work environments. A logical 2D matrix representing the MathWorks office map was provided as input to the algorithm, where 'TRUE' denoted a visitable map cell and 'FALSE' indicated an impassable cell. The algorithm excelled in finding the shortest and most efficient paths throughout the map. Users could query the bot by providing source and destination points, and in response, the bot generated an image highlighting the map with clear directions, simplifying navigation within the office environment.",
+      "images": [
+        "images/portfolio/MAVIC/MAVIC.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-matlab-plain",
+          "name": "MATLAB"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-azure-plain",
+          "name": "Azure"
+        }
+      ]
+    },
+    {
+      "title": "Map Legend",
+      "startDate": "2021",
+      "description": "In my initial project as a member of the Simulink Data Inspector team, I introduced a vital feature to the map visualization component. Prior to this addition, there was no clear indicator to distinguish which signals were being plotted on the map visualization in SDI. The legend functionality I implemented was carefully designed to address this need. It not only provided a visual legend for better signal identification but also ensured that any changes in signal names from the associated table would dynamically update both the legend name and its corresponding tooltip, creating a seamless and informative user experience.",
+      "images": [
+        "images/portfolio/legend/legend.jpeg",
+        "images/portfolio/legend/legend.mp4"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-cplusplus-plain",
+          "name": "C++"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-matlab-plain",
+          "name": "MATLAB"
+        }
+      ]
+    },
+    {
+      "title": "Map Markers",
+      "startDate": "2021",
+      "description": "In this frontend project, I harnessed the capabilities of mapboxgl APIs to enhance the marker differentiation process. Specifically, I modified the marker types to clearly distinguish between source, destination, and cursor markers. Furthermore, each marker was enriched with a dynamic popup feature, showcasing real-time updates of latitude and longitude positions as the cursor moved. For better understanding I included a comparison of images, highlighting the differences before and after these improvements were implemented.",
+      "images": [
+        "images/portfolio/Markers/Before.jpg",
+        "images/portfolio/Markers/After.jpg",
+        "images/portfolio/Markers/SourcePopup.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-cplusplus-plain",
+          "name": "C++"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-matlab-plain",
+          "name": "MATLAB"
+        }
+      ]
+    },
+    {
+      "title": "Driving Scenario",
+      "startDate": "2020",
+      "description": "During my internship at MathWorks, I engaged in a project focused on exploring a variety of road network databases, which included Open Drive, Here HD, and Open Street Maps. The primary aim of this endeavor was to extract the precise locations of traffic lights within these databases. As part of this project, I developed APIs that were tailored to the specific task of parsing and collecting the exact positions of traffic lights from the above mentioned databases. Subsequently, these positions were mapped to the various lanes within junctions within a simulated road network environment. My role then was extended to implement algorithms designed to serve two primary functions: ensuring the effective functionality of traffic lights and proficiently detecting lanes and junctions within road networks defined by the user. This project was a significant part of my internship, offering a valuable opportunity to explore, develop, and contribute to the realm of road network analysis and traffic light management.",
+      "images": [
+        "images/portfolio/driving/roadnetwork.png"
+      ],
+      "url": "https://www.mathworks.com/help/driving/ref/drivingscenario.roadnetwork.html#responsive_offcanvas",
+      "technologies": [
+        {
+          "class": "devicon-cplusplus-plain",
+          "name": "C++"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-matlab-plain",
+          "name": "MATLAB"
+        }
+      ]
+    },
+    {
+      "title": "Speech Emotion Recognition Using Multimodal Biometrics",
+      "startDate": "2020",
+      "description": "I served as a Technical Assistant, contributing to research in Speech Emotion Recognition (SER). Our research delved deep into this field, employing advanced techniques like Mel spectrograms and data augmentation, including time-shifting and time-frequency masking using Python. Our findings were published in a research paper, demonstrating that the use of Mel spectrograms substantially improved the average model accuracy, reaching an impressive 75%.",
+      "images": [
+        "images/portfolio/SER/mel.png"
+      ],
+      "url": "https://app.box.com/s/8600smczowa0f71fauroe6r4sztpel8r",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "python"
+        }
+      ]
+    },
+    {
+      "title": "Facial Recognition After Plastic Surgery",
+      "startDate": "2019",
+      "description": "During my undergraduation, I addressed the challenge of facial recognition post-plastic surgery. I developed a Bag of Features model in MATLAB, strategically selecting point locations using dense SURF (Speeded-Up Robust Features) extraction to enhance accuracy. Additionally, I commenced my research experience by thoroughly reviewing relevant research papers to gain insights into various models. I conducted multiple trials with Bag of Features models and presented my findings to my advisor, highlighting the superior accuracy achieved with dense SURF feature extraction. This project marked the beginning of my research journey.",
+      "images": [
+        "images/portfolio/FaceRecognition/facialRecognition.png"
+      ],
+      "url": "https://github.com/kalyan1998/Face-Recognition",
+      "technologies": [
+        {
+          "class": "devicon-matlab-plain",
+          "name": "MATLAB"
+        }
+      ]
+    },
+    {
+      "title": "Earthquake Alert System",
+      "startDate": "2018",
+      "description": "As part of the NASA Space Apps Hackathon, We harnessed the potential of Android technology, employing Android Studio along with USGS API end points and the Google Maps API to create an application that not only informs and guides users during an approaching earthquake but also offers alerts, notifications, and a preparedness checklist for their safety. secured the first-place position at the college level of the competition. Due to this success, we advanced to the next round of the hackathon.",
+      "images": [
+        "images/portfolio/Earthquake/earthquakeAlertSystem.png"
+      ],
+      "url": "https://github.com/kalyan1998/nasa_spaceapps",
+      "technologies": [
+        {
+          "class": "devicon-androidstudio-plain",
+          "name": "Android Studio"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-php-plain",
+          "name": "PHP"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        }
+      ]
+    },
+    {
+      "title": "Salary-Related Issues Analysis and Email Classification Bot",
+      "startDate": "2018",
+      "description": "I created an email classification bot for Teamlease a client of Sayint.ai, focusing on employee salary and IT-related correspondence. This involved the utilization of both Rasa and Microsoft Azure Luis, and I conducted a thorough comparative analysis of the results. Additionally, I designed NLU APIs and Python-based regex rules using Flask to extract query string parameters (intent) and executed various essential machine learning operations. These operations encompassed clustering, word-to-vector conversion, assessing associativity between words, and identifying n-grams. Additionally Contributed to the 'teletext' project for automating customer calls by using Mycroft an open source software which converts text-to-speech.",
+      "images": [
+        "images/portfolio/EmailBot/Saint.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSql"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "MathWorks",
+      "title": "Senior Associate Software Engineer",
+      "years": "11.2020 - 07.2023",
+      "mainTech": [
+        "C++ 11"
+      ],
+      "technologies": [
+        "REST API",
+        "C++",
+        "JavaScript",
+        "Dojo",
+        "Bootstrap",
+        "HTML",
+        "CSS",
+        "MATLAB",
+        "Simulink",
+        "Perforce",
+        "Gecko",
+        "Jira"
+      ]
+    },
+    {
+      "company": "Dr. K P Supreethi - JNTUHCEH",
+      "title": "Research Intern",
+      "years": "07.2020 - 10.2020",
+      "mainTech": [
+        "Python"
+      ],
+      "technologies": [
+        "Python"
+      ]
+    },
+    {
+      "company": "MathWorks",
+      "title": "Associate Software Engineering Intern",
+      "years": "01.2020 - 06.2020",
+      "mainTech": [
+        "Python, MATLAB"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Python",
+        "MATLAB",
+        "Git",
+        "Docker",
+        "HERE HD",
+        "Open Street Maps",
+        "openDRIVE"
+      ]
+    },
+    {
+      "company": "Sayint.ai",
+      "title": "Software Intern",
+      "years": "01.2018 - 09.2019",
+      "mainTech": [
+        "Python, MATLAB"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Python",
+        "MATLAB",
+        "Git",
+        "Docker",
+        "HERE HD",
+        "Open Street Maps",
+        "openDRIVE"
+      ]
+    }
+  ]
+}
