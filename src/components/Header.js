@@ -108,7 +108,7 @@ class Header extends Component {
                 onClick={() => this.showResume(pdf)}
                 id="buttonSize"
               >
-                Resume
+                Download Resume
               </button>
               </div>
           </div>      
