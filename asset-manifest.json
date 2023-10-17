@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kalyan1998/Diwakaruni-Shiva-Kalyan.git/static/css/main.4ec1fd9a.css",
+    "main.js": "/kalyan1998/Diwakaruni-Shiva-Kalyan.git/static/js/main.a476f4dd.js",
+    "index.html": "/kalyan1998/Diwakaruni-Shiva-Kalyan.git/index.html",
+    "main.4ec1fd9a.css.map": "/kalyan1998/Diwakaruni-Shiva-Kalyan.git/static/css/main.4ec1fd9a.css.map",
+    "main.a476f4dd.js.map": "/kalyan1998/Diwakaruni-Shiva-Kalyan.git/static/js/main.a476f4dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ec1fd9a.css",
+    "static/js/main.a476f4dd.js"
+  ]
+}
