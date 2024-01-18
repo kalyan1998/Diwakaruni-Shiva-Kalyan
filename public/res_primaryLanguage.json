@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "I am Shiva Kalyan Sunder Diwakaruni, pursuing a Master's in Computer Science at Clemson University. I am currently looking for Summer 2024 internship opportunities as a Software Development Engineer, where I can apply my three years of industrial experience and expertise to innovative projects and further advance my skills.",
+    "description": "I am Shiva Kalyan Sunder Diwakaruni, a Graduate Research Assistant at Virtual Prototyping of Autonomy-Enabled Ground Systems (VIPR-GS) Lab, pursuing a Master's in Computer Science at Clemson University. I am currently looking for Summer 2024 internship opportunities as a Software Development Engineer, where I can apply my three years of industrial experience and expertise to innovative projects and further advance my skills.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -10,6 +10,29 @@
     }
   },
   "projects": [
+    {
+      "title": "Network Traffic Analysis of Third-Party Android Applications: Leveraging ChatGPT for Insights",
+      "startDate": "2023",
+      "description": "This project revolves around conducting data analysis of various third-party applications by intercepting and scrutinizing their network traffic. Using an emulator setup, we targeted applications sourced from apkmirror, aiming to uncover the nature of data collection within these apps. The progression of work spans multiple phases, encompassing environment configuration, data gathering, process automation, and leveraging mitmproxy for traffic analysis. Wireless debugging facilitated device-host pairing, allowing the execution of adb commands for both pairing and monkey fuzzing. Diverse categories of third-party Android apps, such as shopping and entertainment, were selectively collected as APKs for analysis. Automation played a pivotal role, achieved through a Python script orchestrating the seamless installation of apps on the emulator. This automation encompassed the initiation of mitmproxy, app launch, pinning the app to the screen, fuzzing, subsequent unpinning, and closure of the app. Captured mitmproxy flow data underwent pre-processing to organize requests and responses into a text-based format, streamlining the subsequent analysis. The project’s comprehensive approach towards app analysis through network traffic interception and automation paves the way for discerning insights into the data collection practices across a spectrum of third-party Android applications.",
+      "images": [
+        "images/portfolio/SAT/Badwoo.jpeg",
+        "images/portfolio/SAT/Kohls.jpeg",
+        "images/portfolio/SAT/Last.jpeg",
+        "images/portfolio/SAT/Pintrest.jpeg",
+        "images/portfolio/SAT/ShopListing.jpeg"
+      ],
+      "url": "https://github.com/kalyan1998/Network-Traffic-Analysis-of-Third-Party-Android-Applications",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "python"
+        },
+        {
+          "class": "devicon-androidstudio-plain",
+          "name": "Android Studio"
+        }
+      ]
+    },
     {
       "title": "XY Performance Improvement",
       "startDate": "2023",
@@ -236,6 +259,18 @@
     }
   ],
   "experience": [
+    {
+      "company": "Clemon University, VIPR-GS Lab",
+      "title": "Graduate Research Assistant",
+      "years": "15.2024 - Present",
+      "mainTech": [
+        "Python"
+      ],
+      "technologies": [
+        "Python",
+        "MATLAB"
+      ]
+    },
     {
       "company": "MathWorks",
       "title": "Senior Associate Software Engineer",
