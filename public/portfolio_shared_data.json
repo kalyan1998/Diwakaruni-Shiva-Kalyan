@@ -75,11 +75,6 @@
         "level": "95"
       },
       {
-        "name": "nodejs",
-        "class": "devicon-nodejs-plain",
-        "level": "80"
-      },
-      {
         "name": "TypeScript",
         "class": "devicon-typescript-plain",
         "level": "90"
@@ -96,12 +91,7 @@
       },
       {
         "name": "AWS",
-        "class": "devicon-amazonwebservices-original",
-        "level": "60"
-      },
-      {
-        "name": "Azure",
-        "class": "devicon-azure-plain",
+        "class": "devicon-amazonwebservices-plain-wordmark",
         "level": "60"
       },
       {
@@ -112,11 +102,6 @@
       {
         "name": "Flask",
         "class": "devicon-flask-original",
-        "level": "60"
-      },
-      {
-        "name": "Django",
-        "class": "devicon-django-plain",
         "level": "60"
       },
       {

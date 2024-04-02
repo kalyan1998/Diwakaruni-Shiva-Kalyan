@@ -6,37 +6,37 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
 
-class Experience extends Component {
+class Education extends Component {
   render() {
-    if (this.props.resumeExperience && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.experience;
-      var work = this.props.resumeExperience.map(function (work, i) {
-        const technologies = work.technologies;
-        const mainTechnologies = work.mainTech;
+    if (this.props.resumeEducation && this.props.resumeBasicInfo) {
+      var sectionName = this.props.resumeBasicInfo.section_name.education;
+      var education = this.props.resumeEducation.map(function (edu, i) {
+        const coursework = edu.coursework;
+        const mainCoursework = edu.mainCoursework;
         var classname;
 
-        var mainTech = mainTechnologies.map((technology, i) => {
+        var mainCourses = mainCoursework.map((course, i) => {
           return (
             <Badge pill className="main-badge mr-2 mb-2" key={i}>
-              {technology}
+              {course}
             </Badge>
           );
         });
-        var tech = technologies.map((technology, i) => {
+        var courses = coursework.map((course, i) => {
           return (
             <Badge pill className="experience-badge mr-2 mb-2" key={i}>
-              {technology}
+              {course}
             </Badge>
           );
         });
 
-        if (mainTech[0].props.children.substring(0, 4) === "Pyth") {
+        if (mainCourses[0].props.children.substring(0, 4) === "Pyth") {
           classname = "devicon-python-plain";
         } else {
           classname = "devicon-cplusplus-plain";
         }
 
-        var description = work.description.map((bulletPoint, i) => {
+        var description = edu.description.map((bulletPoint, i) => {
           return (
             <li key={i}>{bulletPoint}</li>
           );
@@ -45,7 +45,7 @@ class Experience extends Component {
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={work.years}
+            date={edu.years}
             iconStyle={{
               background: "#AE944F",
               color: "#fff",
@@ -56,30 +56,30 @@ class Experience extends Component {
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
-              {mainTech}
+              {mainCourses}
             </div>
 
             <h3
               className="vertical-timeline-element-title"
               style={{ textAlign: "left", fontWeight: "bold", fontStyle: "italic" }}
             >
-              {work.title}
+              {edu.degree}
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               style={{ textAlign: "left" }}
             >
-              {work.company}
+              {edu.university}
             </h4>
             <ul style={{ textAlign: "left", marginTop: "15px" }}>{description}</ul>
-            <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
+            <div style={{ textAlign: "left", marginTop: "15px" }}>{courses}</div>
           </VerticalTimelineElement>
         );
       });
     }
 
     return (
-      <section id="resume" className="pb-5">
+      <section id="education" className="pb-5">
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "black" }}>
@@ -91,7 +91,7 @@ class Experience extends Component {
         </div>
         <div className="col-md-8 mx-auto">
           <VerticalTimeline>
-            {work}
+            {education}
             <VerticalTimelineElement
               iconStyle={{
                 background: "#AE944F",
@@ -109,4 +109,4 @@ class Experience extends Component {
   }
 }
 
-export default Experience;
+export default Education;
