@@ -402,6 +402,24 @@
         "gpa": "9.11/10",
         "description": "Technical Assistant, NASA Space Apps Hackathon finalist, Founder of Bits and Bytes: Guiding 200+ students in DS & Algo."
       }
-    ]
+    ],
+    "credentials": [
+      {
+        "type": "Certification",
+        "title": "AWS Certified Developer – Associate",
+        "date": "June 2024",
+        "issuer": "Amazon Web Services",
+        "description": "Earned the AWS Developer – Associate certification, which validates proficiency in developing, deploying, and debugging cloud-based applications using AWS.",
+        "url": "https://www.credly.com/badges/e678dbd2-86bd-4479-8137-5c58b338fd2a",
+        "badgeUrl": "images/AWS.png"
+      },
+      {
+        "type": "Publication",
+        "title": "Speech Emotion Recognition Using Multimodal Biometrics",
+        "date": "2024",
+        "description": "This paper presents our findings on using Mel spectrograms and data augmentation techniques to enhance Speech Emotion Recognition systems, achieving an impressive model accuracy of 75%.",
+        "url": "https://app.box.com/s/8600smczowa0f71fauroe6r4sztpel8r"
+      }
+    ]    
   }
   

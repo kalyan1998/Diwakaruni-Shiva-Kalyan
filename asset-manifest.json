@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Diwakaruni-Shiva-Kalyan/static/css/main.4ec1fd9a.css",
-    "main.js": "/Diwakaruni-Shiva-Kalyan/static/js/main.e539de4f.js",
+    "main.css": "/Diwakaruni-Shiva-Kalyan/static/css/main.5b871e3a.css",
+    "main.js": "/Diwakaruni-Shiva-Kalyan/static/js/main.83be9070.js",
     "index.html": "/Diwakaruni-Shiva-Kalyan/index.html",
-    "main.4ec1fd9a.css.map": "/Diwakaruni-Shiva-Kalyan/static/css/main.4ec1fd9a.css.map",
-    "main.e539de4f.js.map": "/Diwakaruni-Shiva-Kalyan/static/js/main.e539de4f.js.map"
+    "main.5b871e3a.css.map": "/Diwakaruni-Shiva-Kalyan/static/css/main.5b871e3a.css.map",
+    "main.83be9070.js.map": "/Diwakaruni-Shiva-Kalyan/static/js/main.83be9070.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ec1fd9a.css",
-    "static/js/main.e539de4f.js"
+    "static/css/main.5b871e3a.css",
+    "static/js/main.83be9070.js"
   ]
 }
