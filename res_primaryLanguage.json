@@ -290,9 +290,11 @@
           "MATLAB"
         ],
         "description": [
-          "Prototyping off-road vehicle autonomy within unstructured environments for VIPR-GS initiative, in collaboration with U.S. Army GVSC.",
-          "Incorporating sensitivity analysis of 10+ environmental factors to optimize algorithm performance in variable conditions.",
-          "Advancing ground system innovations."
+          "Spearheaded development and comparative analysis of advanced pathfinding algorithms, focusing on Multiattribute A* methodology.",
+          "Conducted comprehensive sensitivity data analysis on over 10 environmental factors, including risk, soil untrafficability, and elevation, to enhance algorithmic performance under diverse conditions.",
+          "Pioneered implementation of terrain analysis by perturbing elevation data using ArcGIS APIs and custom Python scripts to evaluate path variability, improving computational performance and efficiency by nearly 100%.",
+          "Performed extensive error analysis, using RMSE as a metric, to understand impact of perturbations on 1000+ paths for similarity, thereby refining algorithm’s robustness against variances.",
+          "Innovated existing algorithm to produce paths with 60% reduced length and lower average risk, ensuring safer and more consistent routing outcomes."
         ]
       },
       {
@@ -317,7 +319,7 @@
           "Jira"
         ],
         "description": [
-          "Achieved 50% Faster Real-time Data Processing (1M+ Data) with Scalable C++ Concurrent Queues and Data Reduction Techniques (Dojo/C++).",
+          "Achieved 50% faster real-time data processing (1M+ data) with scalable fanout queue service and data reduction techniques (Dojo/C++).",
           "Implemented data thinning techniques, resulting in a ∼30-second reduction in latency for large data transfer between frontend and backend.",
           "Designed a scalable User-Defined Zooming feature for efficient data exploration in XY visualizations, supporting over 50 concurrent instances per session.",
           "Enhanced performance by employing a stateful design and integrating publisher-subscriber services, leading to a 60% reduction in frontend redraws and a 20% decrease in backend data load.",
@@ -358,7 +360,8 @@
           "openDRIVE"
         ],
         "description": [
-          "Architected APIs with an optimized latency of 10ms to render traffic lights from OSM, HERE HD. Represented traffic network as a Graph. Scaled design to Automatic scenario generation and simulation.",
+          "Architected APIs with an optimized latency of 10ms to render traffic lights from OSM, HERE HD.",
+          "Represented traffic network as a Graph. Scaled design to automatic driving scenario generation and simulation.",
           "Created a MATLAB simulation replicating traffic light functionality, improving junction detection accuracy by 40%.",
           "Facilitated and presented knowledge sharing meetings focused on advanced technologies (DL, ADAS)."
         ]
