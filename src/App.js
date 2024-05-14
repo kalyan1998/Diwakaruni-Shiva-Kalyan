@@ -7,8 +7,8 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Education from "./components/Education";
 import Navbar from "./components/Navbar";
+import Credentials from "./components/Credentials";
 
 class App extends Component {
 
@@ -92,6 +92,7 @@ class App extends Component {
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
+        <Credentials credentials={this.state.resumeData.credentials} />
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );

@@ -9,6 +9,7 @@ class Navbar extends Component {
           <a href="#portfolio">Projects</a>
           <a href="#skills">Skills</a>
           <a href="#resume">Experience</a>
+          <a href="#credentials">Certifications & Publications</a>
         </div>
       </nav>
     );

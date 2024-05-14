@@ -103,14 +103,14 @@ class Header extends Component {
               <br/>
               <br/>
               <div className="button-container">
-              <button
-                className="btn btn-primary"
-                onClick={() => this.showResume(pdf)}
-                id="buttonSize"
-              >
-                Download Resume
-              </button>
-              </div>
+  <button
+    className="btn btn-primary"
+    onClick={() => this.showResume(pdf)}
+    id="buttonSize"
+  >
+    Download Resume
+  </button>
+</div>
           </div>      
         </div>
       </header>

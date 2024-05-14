@@ -24,25 +24,31 @@ html {
 	margin-top: 20px;
   }
 
+  $primary-color: #3f2f2f;
   .button-container {
-	margin-top: 20px;
-  }
-
-  #buttonSize {
-	background: #3f2f2f;
-	width: 100%;
-	overflow: hidden;
-	height: 40px;
-	font-size: 20px;
-	border-color: #1F1F1F;
-  }
+	margin-top: 20px; // Ensure there's a little space above the button
   
-  @media (min-width: 768px) {
-	/* Apply these styles only on screens with a width of 768px or more (desktop) */
 	#buttonSize {
-		width: auto; /* Reset width for desktop */
+	  width: 100%; // Full width on smaller screens
+	  background: #3f2f2f;
+	  padding: 10px 20px; // Good padding for finger tapping on mobile
+	  font-size: 16px; // Visible font size on mobile
+	  transition: background-color 0.3s, transform 0.3s;
+  
+	  &:hover {
+		background-color: darken($primary-color, 10%); // Darken on hover for feedback
+		transform: scale(1.05); // Slightly enlarge button on hover for feedback
 	  }
-}
+	}
+  
+	@media (min-width: 768px) {
+	  #buttonSize {
+		width: auto; // Auto width on larger screens
+		padding: 12px 24px; // Larger padding on desktops
+		font-size: 18px; // Larger text on desktops
+	  }
+	}
+  }  
   
 .title-styles {
 	font-family: 'Raleway', sans-serif;
@@ -495,6 +501,54 @@ nav {
 		margin: 10px 0;
 		font-size: 16px;
 	  }
+	}
+  }
+  
+  #credentials {
+	background: #f0f0f0; // Light grey background, change this as per your preference
+	padding: 5% 0;
+	.section-title {
+	  font-size: 24px;
+	  text-align: center;
+	  color: #353239;
+	  margin-bottom: 20px;
+	}
+	.vertical-timeline-element--work {
+		border-left-color: #ddd; // Lighter line color for timeline
+	  }
+	  .main-badge, .experience-badge {
+		background-color: #AE944F; // Adjust badge background if necessary
+		color: white;
+	  }
+	.credential-item {
+	  background: #fff;
+	  padding: 20px;
+	  margin: 0 10%;
+	  border-radius: 8px;
+	  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	  h2 {
+		color: #3f2f2f;
+		font-size: 22px;
+	  }
+	  p, a {
+		color: #666;
+		font-size: 16px;
+		margin-bottom: 10px;
+		display: block; // Ensuring block level for spacing
+	  }
+	  a {
+		color: #3273dc; // Highlighting links
+		text-decoration: none;
+		&:hover {
+		  text-decoration: underline;
+		}
+	  }
+	}
+  }
+  
+  @media (max-width: 768px) {
+	#credentials .credential-item {
+	  margin: 20px 5%;
 	}
   }
   

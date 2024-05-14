@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "name": "Shiva Kalyan Sunder Diwakaruni",
-    "titles": [ "Actively Looking For Summer 2024 Internship Opportunities", "Masters in Computer Science At Clemson University" ],
+    "titles": [ "Actively Looking For Full time Opportunities", "Masters in Computer Science At Clemson University" ],
     "social": [
       {
         "name": "github",
@@ -18,97 +18,227 @@
     "pdf": "pdf/DiwakaruniShivaKalyanSunder.pdf"
   },
   "skills": {
-    "icons": [
-      {
-        "name": "Python",
-        "class": "devicon-python-plain",
-        "level": "65"
-      },
-      {
-        "name": "C++",
-        "class": "devicon-cplusplus-plain",
-        "level": "80"
-      },
-      {
-      "name": "MATLAB",
-      "class": "devicon-matlab-plain",
-      "level": "80"
-      },
-      {
-        "name": "Java",
-        "class": "devicon-java-plain",
-        "level": "80"
-      },
-      {
-        "name": "SQL",
-        "class": "fas fa-database",
-        "level": "60"
-      },
-      {
-        "name": "MySQL",
-        "class": "devicon-mysql-plain",
-        "level": "60"
-      },
-      {
-        "name": "PostgreSQL",
-        "class": "devicon-postgresql-plain",
-        "level": "60"
-      },
-      {
-        "name": "Git",
-        "class": "devicon-git-plain",
-        "level": "60"
-      },
-      {
-        "name": "React",
-        "class": "devicon-react-plain",
-        "level": "95"
-      },
-      {
-        "name": "HTML 5",
-        "class": "devicon-html5-plain",
-        "level": "95"
-      },
-      {
-        "name": "CSS 3",
-        "class": "devicon-css3-plain",
-        "level": "95"
-      },
-      {
-        "name": "TypeScript",
-        "class": "devicon-typescript-plain",
-        "level": "90"
-      },
-      {
-        "name": "JavaScript",
-        "class": "devicon-javascript-plain",
-        "level": "70"
-      },
-      {
-        "name": "Bootstrap",
-        "class": "devicon-bootstrap-plain",
-        "level": "85"
-      },
-      {
-        "name": "AWS",
-        "class": "devicon-amazonwebservices-plain-wordmark",
-        "level": "60"
-      },
-      {
-        "name": "Docker",
-        "class": "devicon-docker-plain",
-        "level": "60"
-      },
-      {
-        "name": "Flask",
-        "class": "devicon-flask-original",
-        "level": "60"
-      },
-      {
-        "name": "Jira",
-        "class": "devicon-jira-plain",
-        "level": "60"
-      }
-    ]
+      "icons": [
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "65"
+        },
+        {
+          "name": "C++",
+          "class": "devicon-cplusplus-plain",
+          "level": "80"
+        },
+        {
+          "name": "MATLAB",
+          "class": "devicon-matlab-plain",
+          "level": "80"
+        },
+        {
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "80"
+        },
+        {
+          "name": "SQL",
+          "class": "fas fa-database",
+          "level": "60"
+        },
+        {
+          "name": "MySQL",
+          "class": "devicon-mysql-plain",
+          "level": "60"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "60"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "60"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "60"
+        },
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "60"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "60"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "60"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "60"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "60"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain-wordmark",
+          "level": "60"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "60"
+        },
+        {
+          "name": "Flask",
+          "class": "devicon-flask-original",
+          "level": "60"
+        },
+        {
+          "name": "Jira",
+          "class": "devicon-jira-plain",
+          "level": "60"
+        },
+        {
+          "name": "GoLang",
+          "class": "devicon-go-plain",
+          "level": "60"
+        },
+        {
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain",
+          "level": "60"
+        },
+        {
+          "name": "AngularJS",
+          "class": "devicon-angularjs-plain",
+          "level": "60"
+        },
+        {
+          "name": "Maven",
+          "class": "devicon-maven-plain",
+          "level": "60"
+        },
+        {
+          "name": "SpringBoot",
+          "class": "devicon-spring-plain",
+          "level": "60"
+        },
+        {
+          "name": "JUnit",
+          "class": "devicon-junit-plain",
+          "level": "60"
+        },
+        {
+          "name": "Linux",
+          "class": "devicon-linux-plain",
+          "level": "60"
+        },
+        {
+          "name": "Windows",
+          "class": "devicon-windows8-plain",
+          "level": "60"
+        },
+        {
+          "name": "Mac OS",
+          "class": "devicon-apple-plain",
+          "level": "60"
+        },
+        {
+          "name": "OracleDB",
+          "class": "devicon-oracle-plain",
+          "level": "60"
+        },
+        {
+          "name": "MS SQL Server",
+          "class": "devicon-microsoftsqlserver-plain",
+          "level": "60"
+        },
+        {
+          "name": "DynamoDB",
+          "class": "devicon-dynamodb-plain",
+          "level": "60"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "60"
+        },
+        {
+          "name": "Cassandra",
+          "class": "devicon-cassandra-plain",
+          "level": "60"
+        },
+        {
+          "name": "VS Code",
+          "class": "devicon-visualstudio-plain",
+          "level": "60"
+        },
+        {
+          "name": "IntelliJ",
+          "class": "devicon-intellij-plain",
+          "level": "60"
+        },
+        {
+          "name": "Jupyter",
+          "class": "devicon-jupyter-plain",
+          "level": "60"
+        },
+        {
+          "name": "PyCharm",
+          "class": "devicon-pycharm-plain",
+          "level": "60"
+        },
+        {
+          "name": "Eclipse",
+          "class": "devicon-eclipse-plain",
+          "level": "60"
+        },
+        {
+          "name": "Anaconda",
+          "class": "devicon-anaconda-plain",
+          "level": "60"
+        },
+        {
+          "name": "Android Studio",
+          "class": "devicon-android-plain",
+          "level": "60"
+        },
+        {
+          "name": "Kubernetes",
+          "class": "devicon-kubernetes-plain",
+          "level": "60"
+        },
+        {
+          "name": "Postman",
+          "class": "devicon-postman-plain",
+          "level": "60"
+        },
+        {
+          "name": "Kafka",
+          "class": "devicon-apachekafka-plain",
+          "level": "60"
+        },
+        {
+          "name": "Jenkins",
+          "class": "devicon-jenkins-plain",
+          "level": "60"
+        },
+        {
+          "name": "JSON",
+          "class": "devicon-json-plain",
+          "level": "60"
+        }
+      ]
   }
 }	
