@@ -264,10 +264,10 @@
         "title": "Graduate Research Assistant",
         "years": "1.2024 - Present",
         "mainTech": [
-          "Python"
+          "GO"
         ],
         "technologies": [
-          "Python",
+          "GO",
           "MATLAB"
         ],
         "description": [
@@ -283,10 +283,10 @@
           "C++ 11"
         ],
         "technologies": [
-          "REST API",
           "C++",
           "JavaScript",
           "Dojo",
+          "REST API",
           "Bootstrap",
           "HTML",
           "CSS",
@@ -297,12 +297,12 @@
           "Jira"
         ],
         "description": [
-          "Developed a distributed queue service enhancing data processing speeds by 50% for 1M+ datapoints, vital for real-time computational scenarios.",
-          "Directed architectural enhancements for large-scale systems, achieving a 30-second reduction in data transmission times, crucial for cloud infrastructure operations.",
-          "Crafted scalable, user-friendly features for data visualization, supporting over 50 concurrent sessions with effective multi-threaded processing.",
-          "Streamlined frontend and backend performance by implementing a stateful design and integrating publisher-subscriber services, achieving a 60% reduction in redraws and 20% decrease in data load.",
-          "Decreased user errors by 40% in Simulink Data Inspector through new interactive map components, enhancing user experience and system usability.",
-          "Tackled and resolved 80+ software bugs, applying Test-Driven Development principles to ensure robustness and reliability, aligned with rigorous testing and code review processes."
+          "Enhanced performance of Simulink Data Inspector, a real-time data streaming visualization tool, by 50% for 1M+ datapoints employing a concurrent queue service in a microservices architecture.", 
+          "Directed architectural enhancements for Simulink Data Inspector’s map and XY visualizations, achieving a 30-second reduction in data transmission times, crucial for cloud infrastructure and big data streaming.",
+          "Crafted scalable, user-friendly features for data visualization, supporting over 50 concurrent sessions with multi-threaded processing, focusing on interactive click and zoom stream handling.", 
+          "Streamlined frontend and backend performance by implementing a stateful design and integrating publisher-subscriber services, attaining a 60% reduction in redraws and 20% decrease in data load, boosting responsiveness and user interaction.", 
+          "Decreased user errors by 40% through new interactive map components and offline caching capabilities for map visualization, improving usability in environments with limited network connectivity.", 
+          "Resolved 80+ software bugs using Test-Driven Development (TDD) and test automation in a cross-functional team, aligned with rigorous testing and code review processes."
         ]
       },
       {
@@ -313,9 +313,9 @@
           "Python, MATLAB"
         ],
         "technologies": [
-          "JavaScript",
-          "Python",
           "MATLAB",
+          "Python",
+          "JavaScript",
           "Git",
           "Docker",
           "HERE HD",
@@ -325,7 +325,7 @@
         "description": [
           "Formulated and deployed high-performance APIs, reducing latency to 10ms, facilitating real-time traffic management in simulation environments.",
           "Fortified the design and implementation of scalable and fault-tolerant systems, improving operational reliability and performance in complex network simulations.",
-          "Orchestrated and led as a Scrum Master, facilitating knowledge sharing sessions on advanced technologies (DL, ADAS)."
+          "Orchestrated and led as a Scrum Master, leveraging strong communication skills to facilitate team collaboration and knowledge-sharing sessions on advanced technologies(DL, ADAS)."
         ]
       },
       {
@@ -337,13 +337,13 @@
         ],
         "technologies": [
           "Python",
-          "SQL",
+          "PostgreSQL",
           "RASA",
           "Mycroft"
         ],
         "description": [
-          "Constructed a high-performance API using Python Celery, replacing routine Flask-based APIs, which optimized resource utilization and slashed operational costs by $75,000 annually.",
-          "Engineered and launched a scalable cloud-based SaaS solution that expanded system capacity by 30%, enhancing the service’s capability to manage large-scale operations effectively."
+          "Constructed a high-performance API for Sayint, a speech analytics platform, using Python Celery and natural language processing to replace routine Flask-based APIs, optimizing resource utilization and slashing operational costs by $75,000 annually.",
+          "Engineered a SaaS-based agent performance monitoring tool for call centers, leveraging sentiment analysis and text classification with 90% accuracy utilizing RASA and Azure LUIS, deployable across major cloud platforms."
         ]
       }
     ],
