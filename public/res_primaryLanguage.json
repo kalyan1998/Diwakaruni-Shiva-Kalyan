@@ -359,7 +359,7 @@
     },
     {
       "title": "Brain Tumor Detection",
-      "startDate": "2024",
+      "startDate": "2021",
       "description": "This project involves developing a brain tumor detection system using deep learning and medical image analysis techniques. The system is designed to automatically identify and classify brain tumors from MRI images. By leveraging Convolutional Neural Networks (CNNs) and advanced image processing algorithms, the project aims to assist medical professionals in early diagnosis and treatment planning. The workflow includes data collection, preprocessing, model training, and evaluation. This technology can significantly improve the accuracy and speed of brain tumor diagnosis, ultimately enhancing patient care.",
       "images": [
         "images/portfolio/BrainTumorDetection/Brain.png"
@@ -520,9 +520,16 @@
       {
         "type": "Publication",
         "title": "Speech Emotion Recognition Using Multimodal Biometrics",
-        "date": "2024",
+        "date": "2020",
         "description": "This paper presents our findings on using Mel spectrograms and data augmentation techniques to enhance Speech Emotion Recognition systems, achieving an impressive model accuracy of 75%.",
         "url": "https://app.box.com/s/8600smczowa0f71fauroe6r4sztpel8r"
+      },
+      {
+        "type": "Publication",
+        "title": "Brain Tumor Detection",
+        "date": "2020",
+        "description": "In the proposed work, concept of transfer learning is adopted and different pre-trained deep convolutional neural networks like ResNet, DenseNet are applied in detecting the presence of brain tumor using MRI dataset and their performance is analyzed.",
+        "url": "https://drive.google.com/file/d/1BBQz8I15-hZS3OnlDcO_Lct1cUFVDrD8/view?pli=1"
       }
     ]    
   }
