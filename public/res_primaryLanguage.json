@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "I am Shiva Kalyan Sunder Diwakaruni, a Graduate Research Assistant at Virtual Prototyping of Autonomy-Enabled Ground Systems (VIPR-GS) Lab, pursuing a Master's in Computer Science at Clemson University. I am currently looking for Software Development Engineer opportunities, where I can apply my four years of industrial experience and expertise to innovative projects and further advance my skills.",
+    "description": "I am Shiva, a passionate coder and researcher exploring the frontiers of distributed systems and machine learning. My work has led to multiple publications, with my latest focus on autonomous ground vehicles and creating a distributed computing library funded by the NSF. I love tackling real-world problems, as evidenced by my app Axon, which simplifies carpooling and deliveries. I aspire to leverage my skills in distributed systems and software engineering to build large-scale, impactful solutions.",
     "section_name": {
       "about": "About me",
       "projects": "Projects", 
@@ -31,7 +31,8 @@
           "class": "devicon-androidstudio-plain",
           "name": "Android Studio"
         }
-      ]
+      ],
+      "domain": "Cybersecurity"
     },
     {
       "title": "XY Performance Improvement",
@@ -55,7 +56,8 @@
           "class": "devicon-matlab-plain",
           "name": "MATLAB"
         }
-      ]
+      ],
+      "domain": "My Work in Production"
     },
     {
       "title": "XY Limits",
@@ -80,10 +82,11 @@
           "class": "devicon-matlab-plain",
           "name": "MATLAB"
         }
-      ]
+      ],
+      "domain": "My Work in Production"
     },
     {
-      "title": "MAVIC: MATLAB Navigation Bot for Large Office Workspaces",
+      "title": "MAVIC: Navigation Bot for Large Office Workspaces",
       "startDate": "2022",
       "description": "As part of the Hack Day 2022 event within MathWorks, I developed a Microsoft Teams bot using MATLAB, Typescript, and Azure. This bot harnessed the power of the A* algorithm and was adapted in this project to assist users in navigating within extensive office spaces or work environments. A logical 2D matrix representing the MathWorks office map was provided as input to the algorithm, where 'TRUE' denoted a visitable map cell and 'FALSE' indicated an impassable cell. The algorithm excelled in finding the shortest and most efficient paths throughout the map. Users could query the bot by providing source and destination points, and in response, the bot generated an image highlighting the map with clear directions, simplifying navigation within the office environment.",
       "images": [
@@ -103,7 +106,8 @@
           "class": "devicon-azure-plain",
           "name": "Azure"
         }
-      ]
+      ],
+      "domain": "Full Stack Development"
     },
     {
       "title": "Map Legend",
@@ -127,7 +131,8 @@
           "class": "devicon-matlab-plain",
           "name": "MATLAB"
         }
-      ]
+      ],
+      "domain": "My Work in Production"
     },
     {
       "title": "Map Markers",
@@ -152,7 +157,8 @@
           "class": "devicon-matlab-plain",
           "name": "MATLAB"
         }
-      ]
+      ],
+      "domain": "My Work in Production"
     },
     {
       "title": "Driving Scenario",
@@ -175,7 +181,8 @@
           "class": "devicon-matlab-plain",
           "name": "MATLAB"
         }
-      ]
+      ],
+      "domain": "My Work in Production"
     },
     {
       "title": "Speech Emotion Recognition Using Multimodal Biometrics",
@@ -190,7 +197,8 @@
           "class": "devicon-python-plain",
           "name": "python"
         }
-      ]
+      ],
+      "domain": "Machine Learning"
     },
     {
       "title": "Facial Recognition After Plastic Surgery",
@@ -205,7 +213,8 @@
           "class": "devicon-matlab-plain",
           "name": "MATLAB"
         }
-      ]
+      ],
+      "domain": "Machine Learning"
     },
     {
       "title": "Earthquake Alert System",
@@ -229,6 +238,10 @@
           "name": "PHP"
         },
         {
+          "class": "devicon-mysql-original",
+          "name": "MySQL"
+        },
+        {
           "class": "devicon-html5-plain",
           "name": "HTML5"
         },
@@ -236,10 +249,170 @@
           "class": "devicon-css3-plain",
           "name": "CSS3"
         }
-      ]
+      ],
+      "domain": "Full Stack Development"
+    },
+    {
+      "title": "Fake Image Generator",
+      "startDate": "2024",
+      "description": "This project involves creating a fake image generator using deep learning techniques. The generator is designed to produce high-quality images that resemble real-world photographs. Leveraging GANs (Generative Adversarial Networks), the project aims to explore the capabilities and limitations of AI in image generation. The process includes data collection, preprocessing, model training, and evaluation. The generated images can be used for various applications such as data augmentation, entertainment, and research in the field of computer vision.",
+      "images": [
+        "images/portfolio/FakeImageGenerator/FakeImage.png"
+      ],
+      "url": "https://github.com/kalyan1998/Fake-Image-Generator",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-tensorflow-original",
+          "name": "TensorFlow"
+        },
+        {
+          "class": "devicon-jupyter-plain",
+          "name": "Jupyter Notebook"
+        }
+      ],
+      "domain": "Machine Learning"
+    },
+    {
+      "title": "Question Answering Model",
+      "startDate": "2024",
+      "description": "This project focuses on developing a question answering model using advanced natural language processing techniques. The model is designed to understand and respond to user queries accurately. Leveraging transformer-based architectures like BERT, the project aims to achieve high performance in comprehension and answering tasks. The workflow includes data preprocessing, model training, fine-tuning on specific datasets, and evaluation. The system can be utilized for various applications such as customer support, educational tools, and virtual assistants.",
+      "images": [
+        "images/portfolio/QuestionAnsweringModel/Performance.png"
+      ],
+      "url": "https://github.com/kalyan1998/Question-Answering-Model",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-tensorflow-original",
+          "name": "TensorFlow"
+        },
+        {
+          "class": "devicon-jupyter-plain",
+          "name": "Jupyter Notebook"
+        }
+      ],
+      "domain": "Machine Learning"
+    },
+    {
+      "title": "Video Caption Generation",
+      "startDate": "2024",
+      "description": "This project aims to develop a video caption generation system using deep learning and computer vision techniques. The system is designed to automatically generate descriptive captions for video content. By leveraging Convolutional Neural Networks (CNNs) for feature extraction and Recurrent Neural Networks (RNNs) for sequence generation, the project seeks to bridge the gap between visual data and natural language. The workflow includes data collection, preprocessing, model training, and evaluation. This technology can be applied in various domains such as video indexing, accessibility for the visually impaired, and content summarization.",
+      "images": [
+        "images/portfolio/VideoCaptionGeneration/VideoGeneration.png"
+      ],
+      "url": "https://github.com/kalyan1998/Video-Caption-Generation",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-tensorflow-original",
+          "name": "TensorFlow"
+        },
+        {
+          "class": "devicon-opencv-plain",
+          "name": "OpenCV"
+        }
+      ],
+      "domain": "Machine Learning"
+    },
+    {
+      "title": "DeepFake Text Detection",
+      "startDate": "2024",
+      "description": "This project focuses on detecting deepfake text using advanced natural language processing and machine learning techniques. The system is designed to identify and classify text that has been synthetically generated to deceive or manipulate. Leveraging transformer-based models such as BERT and GPT, the project aims to achieve high accuracy in distinguishing genuine text from deepfake text. The workflow includes data collection, preprocessing, model training, fine-tuning, and evaluation. This technology can be applied in various domains such as social media monitoring, news verification, and cybersecurity.",
+      "images": [
+        "images/portfolio/DeepFakeTextDetection/result1.png",
+        "images/portfolio/DeepFakeTextDetection/result2.png"
+      ],
+      "url": "https://github.com/kalyan1998/DeepFakeTextDetection",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-tensorflow-original",
+          "name": "TensorFlow"
+        },
+        {
+          "class": "devicon-jupyter-plain",
+          "name": "Jupyter Notebook"
+        },
+        {
+          "class": "devicon-numpy-plain",
+          "name": "NumPy"
+        },
+        {
+          "class": "devicon-pandas-plain",
+          "name": "Pandas"
+        }
+      ],
+      "domain": "Cybersecurity"
+    },
+    {
+      "title": "Brain Tumor Detection",
+      "startDate": "2024",
+      "description": "This project involves developing a brain tumor detection system using deep learning and medical image analysis techniques. The system is designed to automatically identify and classify brain tumors from MRI images. By leveraging Convolutional Neural Networks (CNNs) and advanced image processing algorithms, the project aims to assist medical professionals in early diagnosis and treatment planning. The workflow includes data collection, preprocessing, model training, and evaluation. This technology can significantly improve the accuracy and speed of brain tumor diagnosis, ultimately enhancing patient care.",
+      "images": [
+        "images/portfolio/BrainTumorDetection/Brain.png"
+      ],
+      "url": "https://github.com/kalyan1998/BrainTumorDetection",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-tensorflow-original",
+          "name": "TensorFlow"
+        },
+        {
+          "class": "devicon-opencv-plain",
+          "name": "OpenCV"
+        },
+        {
+          "class": "devicon-jupyter-plain",
+          "name": "Jupyter Notebook"
+        },
+        {
+          "class": "devicon-numpy-plain",
+          "name": "NumPy"
+        }
+      ],
+      "domain": "Machine Learning"
     }
+    
+    
   ],
     "experience": [
+      {
+        "company": "Axon",
+        "title": "Co-Founder & Software Engineer",
+        "years": "05.2024 - Present",
+        "mainTech": [
+          "Node.js",
+          "React Native"
+        ],
+        "technologies": [
+          "Node.js",
+          "React Native",
+          "PostgreSQL",
+          "Redis",
+          "Nginx",
+          "AWS",
+          "Kubernetes",
+          "Docker"
+        ],
+        "description": []
+      },
       {
         "company": "Clemon University, VIPR-GS Lab",
         "title": "Graduate Research Assistant",

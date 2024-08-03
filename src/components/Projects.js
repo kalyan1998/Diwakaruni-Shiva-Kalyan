@@ -16,32 +16,78 @@ class Projects extends Component {
     };
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
+
+    // Function to group projects by domain
+    const groupByDomain = (projects) => {
+      return projects.reduce((acc, project) => {
+        const domain = project.domain || "Others";
+        if (!acc[domain]) {
+          acc[domain] = [];
+        }
+        acc[domain].push(project);
+        return acc;
+      }, {});
+    };
+
+    // Specify the desired order of domains
+    const domainOrder = [
+      "My Work in Production",
+      "Full Stack Development",
+      "Machine Learning",
+      "CyberSecurity",
+    ];
+
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
-      var projects = this.props.resumeProjects.map(function (projects) {
-        return (
-          <div
-            className="col-sm-12 col-md-6 col-lg-4"
-            key={projects.title}
-            style={{ cursor: "pointer" }}
-          >
-            <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
-                  <img
-                    src={projects.images[0]}
-                    alt="projectImages"
-                    height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
-                  />
-                  <span className="project-date">{projects.startDate}</span>
-                  <br />
-                  <p className="project-title-settings mt-3">
-                    {projects.title}
-                  </p>
+      var groupedProjects = groupByDomain(this.props.resumeProjects);
+
+      // Sort the domains according to the specified order
+      var sortedDomains = domainOrder.filter((domain) => domain in groupedProjects);
+
+      // Include any additional domains not specified in the order
+      Object.keys(groupedProjects).forEach((domain) => {
+        if (!sortedDomains.includes(domain)) {
+          sortedDomains.push(domain);
+        }
+      });
+
+      var projectSections = sortedDomains.map((domain) => {
+        var projects = groupedProjects[domain].map((project) => {
+          return (
+            <div
+              className="col-sm-12 col-md-6 col-lg-4"
+              key={project.title}
+              style={{ cursor: "pointer" }}
+            >
+              <span className="portfolio-item d-block">
+                <div className="foto" onClick={() => detailsModalShow(project)}>
+                  <div>
+                    <img
+                      src={project.images[0]}
+                      alt="projectImages"
+                      height="230"
+                      style={{
+                        marginBottom: 0,
+                        paddingBottom: 0,
+                        position: "relative",
+                      }}
+                    />
+                    <span className="project-date">{project.startDate}</span>
+                    <br />
+                    <p className="project-title-settings mt-3">
+                      {project.title}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </span>
+              </span>
+            </div>
+          );
+        });
+
+        return (
+          <div key={domain}>
+            <h2 className="domain-title">{domain}</h2>
+            <div className="row mx-auto">{projects}</div>
           </div>
         );
       });
@@ -54,7 +100,7 @@ class Projects extends Component {
             <span>{sectionName}</span>
           </h1>
           <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
+            {projectSections}
           </div>
           <ProjectDetailsModal
             show={this.state.detailsModalShow}
